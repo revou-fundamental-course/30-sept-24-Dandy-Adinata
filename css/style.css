@@ -11,9 +11,11 @@ h1 {
     width: 300px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, red, blue) 1;
+    
 }
 
 .container input[type="number"],
