@@ -4,27 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Suhu</title>
-    <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <h1>Kalkulator suhu</h1>
+
+    <h1>Kalkulator suhu</h1>
     <div class="container">
-        <label for="celsius">Celsius (°C):</label>
+        <label for="inputSuhu" id="labelInput">Celsius (°C):</label>
         <input type="number" id="celsius" placeholder="Masukkan suhu Celsius">
-
-        <div>
-            <button onclick="convert()">Konversi</button>
-            <button onclick="reset()">Reset</button>
-            <button onclick="reverse()">Reverse</button>
-        </div>
-
-        <label for="fahrenheit">Fahrenheit (°F):</label>
+        <br><br>
+        <button id="convertBtn">Konversi</button>
+        <button id="resetBtn">Reset</button>
+        <button id="reverseBtn">Reverse</button>
+        <br><br>
+        <label for="outputSuhu" id="labelOutput">Fahrenheit (°F):</label>
         <input type="text" id="fahrenheit" readonly>
-
-        <div class="result" id="calculation"></div>
+        <p id="calculation"></p>
     </div>
-    <!-- script.js -->
+
     <script src="js/script.js"></script>
 </body>
 </html>

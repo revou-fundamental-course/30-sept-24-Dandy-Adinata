@@ -4,7 +4,7 @@ body {
 }
 h1 {
     text-align: center;
-    font-weight:600;
+    font-weight:500;
     font-family: 'Times New Roman', Times, serif;
 }
 .container {
@@ -38,7 +38,7 @@ h1 {
 }
 
 .container button:hover {
-    background-color: #0056b3;
+    background-color: #4798f0;
 }
 
 .result {
